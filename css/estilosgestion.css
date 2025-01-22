@@ -1,0 +1,26 @@
+.table th, .table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px; /* Ajusta según sea necesario */
+}
+
+@media (max-width: 768px) {
+    .table th, .table td {
+        max-width: none;
+    }
+}
+
+/* Estilos para centrar la tabla y colocar los botones */
+.container-table {
+    margin-top: 50px;
+}
+
+.btn-create {
+    margin-top: -30px; /* Ajusta según sea necesario */
+    margin-bottom: 20px;
+}
+
+.btn-logout {
+    margin-top: 20px;
+}

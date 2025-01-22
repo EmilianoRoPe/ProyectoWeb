@@ -1,0 +1,17 @@
+.contenedor{
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:200px;
+    padding-top:20px;
+    align-items: center;
+    /* background-color: rgb(212, 217, 216); */
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    border-radius: 20px;
+    border-left: 500px;
+}
+.imagen{
+    align-items: center;
+    padding-left: 50px;
+}

@@ -1,0 +1,127 @@
+.pdf-retrieve-container {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 200px; 
+    height: 320px;
+    padding-top: 10px;
+  }
+  
+  /* Estilos para el formulario de recuperar PDF */
+  .pdf-retrieve-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espacio entre los elementos hijos */
+  }
+  
+  /* Estilos para el botón de recuperar PDF */
+  .pdf-retrieve-btn {
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+
+  .extended-form {
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #800000;
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Fondo gris claro para el formulario */
+  }
+  
+  
+  .card h2 {
+    color: #800000; /* Texto guinda para los títulos de sección */
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-footer {
+    background-color: #f8f9fa; /* Fondo gris claro para el pie de la tarjeta */
+    border-top: 2px solid #800000; /* Borde guinda en la parte superior del pie de la tarjeta */
+    border-radius: 0 0 10px 10px;
+  }
+  .card {
+    background-color: #800000; /* Fondo blanco */
+    margin-bottom: 10px;
+    border: 2px solid white; /* Borde guinda */
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    color: white; /* Texto guinda para el encabezado dentro de la tarjeta */
+  }
+  
+  .content {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .btn-guinda {
+    background-color: #800000; /* Código de color para guinda */
+    color: #fff; /* Color del texto para botón de color guinda */
+  }
+  .column {
+    background-color: #cdd8e2; /* Fondo gris claro para cada columna */
+    padding: 10px;
+    margin: 5px; /* Espaciado externo entre columnas */
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  .car{
+    padding-left:300px;
+    padding-right:300px;
+  }
+    .personalizado{ /*color del footer*/
+      background-color:#13332d;
+  }
+.carreras{  /*Encabezado y alineacion del titulo de cada carrera*/
+    color:rgb(25, 24, 96);
+    text-align: center;
+}
+.oferta{  /*Separación de los pdf*/
+    padding-left: 100px;
+  }
+  .planestudio{
+    display: inline-block;
+    height: 550px;
+    width: 800px;
+    /* background-color: blanchedalmond; */
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 15px;
+  }
+  .descripcion{
+    display: inline-block;
+    height: 400px;
+    width: 500px;
+    /* background-color: bisque;  */
+    margin-top: 100px;
+    padding-top: 20px;
+    margin-left: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+.mapafor{
+margin-left: 150px;
+margin-bottom: 50px;
+display: inline-block;
+width: 500px;
+height: 500px;
+}
+.formrecupera{
+  display: inline-block;
+  width: 400px;
+  height: 450px;
+  margin-left: 200px;
+  /* background-color: aqua; */
+}
+  
+
+
+
+  

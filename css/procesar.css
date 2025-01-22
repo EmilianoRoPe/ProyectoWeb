@@ -1,0 +1,36 @@
+.card-footer {
+    background-color: #f8f9fa; /* Fondo gris claro para el pie de la tarjeta */
+    border-top: 2px solid #800000; /* Borde guinda en la parte superior del pie de la tarjeta */
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .card {
+    background-color: white; /* Fondo blanco */
+    margin-bottom: 10px;
+    border: 2px solid #800000; /* Borde guinda */
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .btn-guinda {
+    background-color: #800000; /* Código de color para guinda */
+    color: #fff; /* Color del texto para botón de color guinda */
+  }
+
+  .card2 {
+    background-color: #800000; /* Fondo blanco */
+    margin-bottom: 10px;
+    border: 2px solid white; /* Borde guinda */
+    border-radius: 10px;
+  }
+
+  body {
+    background-color: white; /* Color de fondo */
+}
+
+.container {
+    max-width: 900px; /* Ancho máximo del contenido */
+}
+
+
+  

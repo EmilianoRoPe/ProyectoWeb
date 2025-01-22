@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: white;
+}
+/*Parte responsiva Cabecera*/
+
+.principal{
+  /*background-color: red;*/
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-items:center;
+  align-content:space-between;
+  height: auto; /*Este valor lo puedes omitir si la altura de tu componente esta definida*/
+  width: 100%;
+  overflow: hidden;
+}
+/* .principal img{
+  width: 70%;
+  height: auto;
+  padding: 1px;
+  align-items: center;
+} */
+.barra1{  
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  width:auto;
+  padding: 5px;
+}
+
+/*Parte responsiva Barra de navegacion*/
+.navbar{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:center;
+  align-content:space-between;
+  height:auto;
+  width: 100%;
+  overflow: hidden;
+}
+.container-fluid{
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  width:100%;
+}
+.collapse{
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  width:40%;
+}
+/*Parte responsiva Carrusel*/
+.car{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+#carouselExampleControls{
+  max-width: 880px;
+}
+.carousel-inner{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+.carousel-item{
+  flex: 0 0 auto;
+}
+.carousel-item img {
+  width: 880px;
+  height: 480px;
+}
+
+
+
+/*Parte responsiva Oferta educativa*/
+
+
+/*FORM PDF*/
+.formrecupera{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+  align-items:flex-end;
+  align-content:space-around;
+  height:auto;
+  width: 100%;
+  overflow: hidden;
+}
+.container{
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  width:100%;
+}
+/*MAP*/
+.mapafor{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+  align-items:flex-end;
+  align-content:space-around;
+  height:auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+footer{
+  display:flex;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+  align-items:center;
+  align-content:space-between;
+  height:auto;
+  width: 100%;
+}
+.f1, .f2{
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  width:100%;
+}
+
+
+.pdf-retrieve-container {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 200px; 
+    height: 320px;
+    padding-top: 10px;
+  }
+  
+  /* Estilos para el formulario de recuperar PDF */
+  .pdf-retrieve-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espacio entre los elementos hijos */
+  }
+  
+  /* Estilos para el botón de recuperar PDF */
+  .pdf-retrieve-btn {
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+
+  .extended-form {
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #800000;
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Fondo gris claro para el formulario */
+  }
+  
+  
+  .card h2 {
+    color: #800000; /* Texto guinda para los títulos de sección */
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-footer {
+    background-color: #f8f9fa; /* Fondo gris claro para el pie de la tarjeta */
+    border-top: 2px solid #800000; /* Borde guinda en la parte superior del pie de la tarjeta */
+    border-radius: 0 0 10px 10px;
+  }
+  .card {
+    background-color: #800000; /* Fondo blanco */
+    margin-bottom: 10px;
+    border: 2px solid white; /* Borde guinda */
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    color: white; /* Texto guinda para el encabezado dentro de la tarjeta */
+  }
+  
+  .content {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .btn-guinda {
+    background-color: #800000; /* Código de color para guinda */
+    color: #fff; /* Color del texto para botón de color guinda */
+  }
+  .column {
+    background-color: #cdd8e2; /* Fondo gris claro para cada columna */
+    padding: 10px;
+    margin: 5px; /* Espaciado externo entre columnas */
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+
+    .personalizado{ /*color del footer*/
+      background-color:#13332d;
+  }
+.carreras{  /*Encabezado y alineacion del titulo de cada carrera*/
+    color:rgb(25, 24, 96);
+    text-align: center;
+}
+.oferta{  /*Separación de los pdf*/
+    padding-left: 100px;
+  }
+  .planestudio{
+    display: inline-block;
+    height: auto;
+    width: 54%;
+    /* background-color: blanchedalmond; */
+    margin-top: 25px;
+    padding-top: 15px;
+  }
+  .descripcion{
+    display: inline-block;
+    height: auto;
+    width: 44%;
+    /* background-color: bisque;  */
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 25px;
+  }
+.mapafor{
+padding-left: 80px;
+margin-bottom: 50px;
+display: inline-block;
+width: 50%;
+height: 50%;
+/* background-color: rgb(104, 82, 195); */
+padding-right: 70px;
+}
+.formrecupera{
+  display: inline-block;
+  width: 49%;
+  height: 450px;
+  /* background-color: aqua; */
+  margin-bottom: 50px;
+}
+.barra1{
+  text-align: right;
+}  
+.imgplanes{
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+
+.main-container {
+  margin-top: 2rem; /* o el valor que desees para la barra de navegación */
+  margin-bottom: 2rem; /* o el valor que desees para el pie de página */
+}
